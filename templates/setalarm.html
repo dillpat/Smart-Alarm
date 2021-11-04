@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myHeader {
+   background-color: lightblue;
+   color: black;
+   padding: 40px;
+ }
+</style>
+</head>
+<body>
+<body style="background-color:lightblue">
+<h2 id="mhHeader"> Set Alarm </h2>
+<form action="/setalarm" id="mhHeader">  
+  Message:<br>
+  <input type="text" name="message" value="No new messages">
+  <br>
+	<input type="datetime-local" name="alarm" id="mhHeader" value="{{datetime_now}}">
+	<input type="submit" value="Set Alarm">	
+	<input type="submit" value="Back" formaction="/">
+</form>
+</body>
+</html>
