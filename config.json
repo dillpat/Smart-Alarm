@@ -1,0 +1,24 @@
+{
+    "api_keys": {"weather":{
+                        "url": "http://api.openweathermap.org/data/2.5/weather?",
+                        "key": "cf1a522711a265769e4104f05ae18224"
+                           },
+                 "news":{
+                     "url": "https://newsapi.org/v2/top-headlines?",
+                     "key": "18aa644898ba4e3f8cad9edd37bec7a4"
+                        }
+				},
+    "logging": {
+                    "log_file": "smartalarm.log",
+                    "log_level": "20"
+                },
+	"file_paths":{"html":{
+								"home_page":"clock.html",
+								"set_alarm":"setalarm.html",
+								"cancel_alarm":"cancelalarm.html",
+								"weather_page":"weather.html",
+								"alert_list":"alert.html"
+							}
+				 }		
+}
+
